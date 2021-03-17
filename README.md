@@ -10,6 +10,7 @@ https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5?usp=sha
 
 '''bash
 git init
+'''
 
 dvc init 
 dvc add data_given_win/winequality.csv
@@ -21,4 +22,6 @@ oneliner updates for readme
 git add . && git commit -m "update Readme.md"
 git remote add origin https://github.com/Ashit-cloud/Win_quality_dvc.git
 git branch -M main
-git push origin main
+git push origin main 
+or
+git push -f origin main
