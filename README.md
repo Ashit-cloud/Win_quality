@@ -8,8 +8,9 @@ pip install -r requirements.txt
 Download the data from
 https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5?usp=sharing
 
-
+'''bash
 git init
+
 dvc init 
 dvc add data_given_win/winequality.csv
 git add .
