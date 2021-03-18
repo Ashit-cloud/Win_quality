@@ -20,9 +20,7 @@ dvc init
 
 dvc add data_given_win/winequality.csv
 
-git add .
-
-git commit -m "first commit"
+git add . && git commit -m "first commit"
 
 oneliner updates for readme
 
