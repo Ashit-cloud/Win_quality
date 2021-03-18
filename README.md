@@ -35,3 +35,24 @@ git push origin main
 or
 
 git push -f origin main
+
+
+tox command -
+
+tox
+
+for rebuilding -
+
+tox -r 
+
+pytest command
+
+pytest -v
+
+setup commands -
+
+pip install -e . 
+
+build your own package commands-
+
+python setup.py sdist bdist_wheel
